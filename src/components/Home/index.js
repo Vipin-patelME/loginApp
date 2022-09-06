@@ -27,9 +27,9 @@ class Home extends Component {
       loginCont = (
         <div className="bg-container">
           <div>
-            <h1>Welcome User</h1>
+            <h1>Please Login</h1>
             <button className="btnStyle" type="button" onClick={this.onLogin}>
-              Logout
+              Login
             </button>
           </div>
         </div>
@@ -38,9 +38,9 @@ class Home extends Component {
       loginCont = (
         <div className="bg-container">
           <div>
-            <h1>Please login</h1>
+            <h1>Welcome User</h1>
             <button className="btnStyle" type="button" onClick={this.onLoguot}>
-              Login
+              Logout
             </button>
           </div>
         </div>
